@@ -1,0 +1,15 @@
+package com.joao.todolist.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.joao.todolist.repository.TaskRepository;
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class TaskService {
+	
+	@Autowired
+	private TaskRepository taskRepository;
+
+}
