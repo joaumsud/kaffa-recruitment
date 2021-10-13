@@ -1,24 +1,11 @@
-# README
+# README ToDo List
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Projeto feito em Ruby on Rails  ultima versão no Backend e React no Frontend.
 
-Things you may want to cover:
+Rails, React, Bootstrap; FontAwesome e banco de dados sqlite3.
 
-* Ruby version
+Para rodar o servidor usar a porta de configiração 3001 e;
 
-* System dependencies
+Para rodar o frontend usar a porta 3000, como configuração padrão.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Projeto em andamento, pois ainda não foi terminada a parte de inserção de taskes (tarefas), nem a exclusão das tarefas já feitas.
