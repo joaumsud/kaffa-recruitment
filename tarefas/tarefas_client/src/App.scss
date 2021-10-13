@@ -1,0 +1,40 @@
+$blue: #1C79A3;
+   $gold: #A3A154;
+   $cream: #F0EFCE;
+   $red: #F0243C;
+   
+   .navbar{
+     background-color: $gold;
+     .navbar-brand{
+       color: $blue !important;
+     }
+   }
+   .tasks_list{
+    margin-top: 40px;
+    .title{
+      font-size: 22px;
+      color: $gold;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+   
+    .card{
+      background-color: $gold;
+      table{
+        tbody > tr:nth-child(1) > td{
+          border-top: 0;
+        }
+        color: white;
+        font-weight: 500;
+        margin-bottom: 5px;
+   
+        .check{
+          color: $blue;
+          font-size: 15px;
+        }
+        .delete{
+          color: white;
+        }
+      }
+    }
+  }
